@@ -1,0 +1,9 @@
+apiVersion: kubeagent.kubeagent.dev/v1alpha1
+kind: KubeTask
+metadata:
+  labels:
+    app.kubernetes.io/name: kubeagent
+    app.kubernetes.io/managed-by: kustomize
+  name: kubetask-sample
+spec:
+  # TODO(user): Add fields here
